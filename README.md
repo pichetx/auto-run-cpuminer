@@ -240,20 +240,4 @@ Protocols socks4a and socks5h, allowing remote name resolving, are also availabl
 If no protocol is specified, the proxy is assumed to be a HTTP proxy.  
 When the --proxy option is not used, the program honors the http_proxy and all_proxy environment variables.
 
-Donations
-=========
-Donations for the work done in this fork are accepted :
-
-Tanguy Pruvot :
-* BTC: `1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd`
-
-Lucas Jones :
-* MRO: `472haywQKoxFzf7asaQ4XKBc2foAY4ezk8HiN63ifW4iAbJiLnfmJfhHSR9XmVKw2WYPnszJV9MEHj9Z5WMK9VCNHaGLDmJ`
-* BTC: `139QWoktddChHsZMWZFxmBva4FM96X2dhE`
-
-Credits
-=======
-CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas Jones.
-* [tpruvot](https://github.com/tpruvot) added all the recent features and newer algorythmns
-* [Wolf9466](https://github.com/wolf9466) helped with Intel AES-NI support for CryptoNight
 
