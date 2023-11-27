@@ -29,7 +29,6 @@ apt-get install python3-progress -y
 apt-get install python3-requests -y
 
 
-mv mobile-mining ../../etc
 mv edit-miner ../../bin
 mv run-miner ../../bin
 mv add-ip ../../bin
@@ -37,7 +36,7 @@ mv update ../../bin
 mv up-grade ../../bin
 
 
-cd && cd ../etc/mobile-mining/cpuminer-multi
+cd && cd cpuminer-multi
 chmod +x build.sh
 ./build.sh
 
