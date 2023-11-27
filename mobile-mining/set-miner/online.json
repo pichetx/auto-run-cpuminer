@@ -1,6 +1,0 @@
-{
-    "pool": "stratum+tcp://allium.sea.mine.zpool.ca:6433",
-    "algo": "allium",
-    "wallet": "DCYiQottcGcnmzkp9KqqJwowc3ifEZUxm1",
-    "pass": "c=DOGE"
-}
