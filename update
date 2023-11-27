@@ -1,0 +1,17 @@
+#!/bin/bash 
+  
+cd
+rm -rf auto-run-cpuminer
+git clone https://github.com/pichetx/auto-run-cpuminer
+cd ../etc/mobile-mining/set-miner
+cp -r online.json offline.json /../root/auto-run-cpuminer/mobile-mining/set-miner
+cd
+cd ../etc
+rm -rf mobile-mining 
+cd
+cd ../bin
+rm -rf add-ip edit-miner run-miner
+cd
+cd auto-run-cpuminer
+chmod +x setupdate.sh
+sh setupdate.sh
