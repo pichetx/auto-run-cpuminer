@@ -6,8 +6,6 @@ apt-get install libcurl4-openssl-dev -y
 apt-get install libssl-dev -y
 apt-get install libjansson-dev -y
 apt-get install automake -y
-apt-get install autotools-dev -y  
-apt-get install build-essential -y
 apt-get install nano -y
 apt-get install autoconf -y
 apt-get install pkg-config -y
@@ -37,8 +35,6 @@ mv run-miner ../../bin
 mv add-ip ../../bin
 mv update ../../bin
 mv up-grade ../../bin
-
-run-miner
 
 
 cd && cd ../etc/mobile-mining/cpuminer-multi
