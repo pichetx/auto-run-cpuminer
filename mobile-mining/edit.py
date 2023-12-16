@@ -53,6 +53,7 @@ def OffMiner():
             os.system("edit-miner")   
    push = {
          'pool': pool,
+         'algo': algo,
          'wallet': wallet,
          'pass': password
           }
