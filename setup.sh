@@ -17,7 +17,7 @@ apt-get install libtool -y
 
 chmod +x edit
 chmod +x run
-chmod +x add
+chmod +x add-ip
 chmod +x update
 chmod +x up-grade
 
