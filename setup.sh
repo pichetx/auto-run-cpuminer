@@ -28,7 +28,7 @@ apt-get install figlet -y
 apt-get install python3-progress -y
 apt-get install python3-requests -y
 
-
+mv mobile-mining ../../etc
 mv edit ../../bin
 mv run ../../bin
 mv add-ip ../../bin
