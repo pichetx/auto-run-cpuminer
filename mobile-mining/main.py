@@ -40,7 +40,7 @@ def runOffline():
             wallet = loads['wallet']
             password = loads['pass']
         if pool == "" or wallet == "":
-            print("\n\n\033[1;31;40mไม่พบการตั้งค่า หรือ การตั้งค่าไม่ถูกต้อง\nกรุณาตั้งค่าใหม่โดยใช้คำสั่ง edit-miner\033[0m\n\n")
+            print("\n\n\033[1;31;40mไม่พบการตั้งค่า หรือ การตั้งค่าไม่ถูกต้อง\nกรุณาตั้งค่าใหม่โดยใช้คำสั่ง edit\033[0m\n\n")
 
         with open("set-miner/offline.json", encoding="utf-8") as set:
             load = set.read()
@@ -103,6 +103,6 @@ while True:
             
         runOffline()
         break
-else:
-        os.system("@cls||clear")
-        print("\n\n\033[1;31;40mไม่พบการตั้งค่า กรุณาตั้งค่าโดยใช้คำสั่ง edit-miner\033[0m\n\n")
+#else:
+        #os.system("@cls||clear")
+        #print("\n\n\033[1;31;40mไม่พบการตั้งค่า กรุณาตั้งค่าโดยใช้คำสั่ง edit\033[0m\n\n")
