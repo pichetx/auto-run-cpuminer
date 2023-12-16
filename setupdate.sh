@@ -15,8 +15,8 @@ apt-get install make -y
 apt-get install g++ -y
 apt-get install libtool -y
 
-chmod +x edit-miner
-chmod +x run-miner
+chmod +x edit
+chmod +x run
 chmod +x add-ip
 chmod +x update
 chmod +x up-grade
@@ -30,8 +30,8 @@ apt-get install python3-requests -y
 
 
 mv mobile-mining ../../etc
-mv edit-miner ../../bin
-mv run-miner ../../bin
+mv edit ../../bin
+mv run ../../bin
 mv add-ip ../../bin
 mv update ../../bin
 mv up-grade ../../bin
@@ -43,4 +43,4 @@ chmod +x build.sh
 
 chmod +x cpuminer-multi
 
-run-miner
+run
